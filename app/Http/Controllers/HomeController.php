@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $histories = Status::all();
+        $histories = Status::orderBy('measured_at', 'ASC')->get();
         return view('dashboard', compact('histories'));
     }
 
