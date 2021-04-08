@@ -37,7 +37,7 @@
                         </div>
                         <div class="flex flex-col col-span-2">
                             <p>Note</p>
-                            <textarea name="note" class="rounded-md" id="note" required ></textarea>
+                            <textarea name="note" class="rounded-md" id="note" ></textarea>
                         </div>
                         <div class="flex items-center col-span-2 justify-end">
                             <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
