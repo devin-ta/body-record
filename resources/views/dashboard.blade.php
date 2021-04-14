@@ -30,7 +30,7 @@
                             <tbody>
                             @foreach($histories as $history)
                                 <tr>
-                                    <td class="text-center">{{ date('F j, Y', strtotime($history->measured_at)) }}</td>
+                                    <td class="text-center">{{ date('Y-m-d', strtotime($history->measured_at)) }}</td>
                                     <td class="text-center">{{ date('H:i', strtotime($history->measured_at)) }}</td>
                                     <td class="text-center">
                                         {{ $history->high_blood_pressure }} / {{ $history->low_blood_pressure }}
